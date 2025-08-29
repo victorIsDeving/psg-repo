@@ -1,0 +1,45 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+
+# Compiled binaries
+Debug/
+Release/
+*.app
+*.dSYM
+*.o
+*.dia
+*.a
+
+# Build artifacts
+*.build/
+*.xcarchive
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Databases
+*.db
+*.sqlite
+
+# Executables
+VanGogh
+
+# Temporary files
+*.tmp
+*.temp
